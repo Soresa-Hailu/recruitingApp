@@ -1,0 +1,25 @@
+package msnpro;
+
+
+
+
+
+
+
+
+public class WrapperDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 int i = 5;
+		 Integer one = new Integer(i);
+		  
+		 int j  = one.intValue(); //5
+		 
+		System.out.println(j);
+		 
+	}
+
+}

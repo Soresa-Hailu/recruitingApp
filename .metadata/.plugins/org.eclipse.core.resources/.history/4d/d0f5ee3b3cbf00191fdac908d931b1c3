@@ -1,0 +1,8 @@
+package apple;
+
+public class tuna {
+	public void simpleMessage() {
+		System.out.println("This is Soresa Hailu Melka");
+	}
+
+}

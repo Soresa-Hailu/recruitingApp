@@ -1,0 +1,28 @@
+package msnpro;
+
+class A{
+	public A() {
+		System.out.println(" in A");
+	}
+	
+}
+class B extends A {
+	public B() {
+	System.out.println("in B");
+	}
+}
+
+
+
+public class SuperDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		B bobj = new B() ;
+		
+		
+		
+	}
+
+}

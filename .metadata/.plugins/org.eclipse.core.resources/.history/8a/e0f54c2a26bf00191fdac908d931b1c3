@@ -1,0 +1,20 @@
+package apple;
+import java.util.*;
+
+public class banana {
+ public static void main(String args[]) {
+    int boy,girl;
+    boy = 18;
+    girl = 20;
+    
+    if(boy > 10) {
+    	System.out.println("You Can Enter");
+    }
+    else {
+    	System.out.println("You are too young");
+    }
+    
+	 
+}
+}
+ 

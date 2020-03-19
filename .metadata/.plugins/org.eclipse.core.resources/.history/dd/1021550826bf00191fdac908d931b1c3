@@ -1,0 +1,16 @@
+package apple;
+import java.util.*;
+
+public class banana {
+ public static void main(String args[]) {
+	
+	 int test = 8;
+	 if(test == 8) {
+		 System.out.println("It is false");
+	 }
+	 else {
+		 System.out.println("It is true");
+	 }
+}
+}
+ 

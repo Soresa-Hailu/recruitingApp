@@ -1,0 +1,24 @@
+package msnpro;
+
+
+class Calc{
+	public int add(int i, int j)
+	{
+		return i+j;
+	}
+}
+
+
+
+
+public class VarargsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calc obj = new Calc();
+		System.out.print(obj.add(3, 4));
+		
+	}
+
+}

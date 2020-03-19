@@ -27,6 +27,17 @@ public class DropDownDemo2 {
 		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ARROW_DOWN);
 		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ENTER);
 		
+
+		driver.findElement(By.id("fromCity")).click();
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys("Bengaluruu");
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ARROW_DOWN);
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ENTER);
+		
+		driver.findElement(By.id("fromCity")).click();
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys("Bengaluruu");
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ARROW_DOWN);
+		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.ENTER);
+		
 		
 		
 	}

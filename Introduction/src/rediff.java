@@ -17,7 +17,11 @@ public class rediff {
         driver.findElement(By.xpath("//*[@id='login1']")).sendKeys("Soresa Hailu");	
         driver.findElement(By.cssSelector("#password")).sendKeys("1234567890");
         driver.findElement(By.xpath("//*[@name='proceed']")).click();
-		
+
+        driver.findElement(By.cssSelector("a[class='signin']")).click();
+        driver.findElement(By.xpath("//*[@id='login1']")).sendKeys("Soresa Hailu");	
+        driver.findElement(By.cssSelector("#password")).sendKeys("1234567890");
+        driver.findElement(By.xpath("//*[@name='proceed']")).click();
 	}
 
 }
